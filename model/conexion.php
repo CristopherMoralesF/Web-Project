@@ -4,8 +4,8 @@
 */
 
     function AbrirDB(){
-        $databaseName = ""; 
-        return mysqli_connect('127.0.0.1:3307','root',$databaseName); 
+        $databaseName = 'CHAT_PROYECTO'; 
+        return mysqli_connect('127.0.0.1:3307','root','',$databaseName); 
     }
 
     function CerrarDB($instancia){
