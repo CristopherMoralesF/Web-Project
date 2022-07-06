@@ -4,10 +4,11 @@
 
     echo '
         <div class="bg-light border-right" id="sidebar-wrapper">
-            <div class="sidebar-heading">Start </div>
+            <div class="sidebar-heading">Virtual Chat </div>
                 <div class="list-group list-group-flush">
-                    <a href="#" class="list-group-item list-group-item-action bg-light">Productos</a>
-                    <a href="#" class="list-group-item list-group-item-action bg-light">Ventas</a>
+                    <a href="#" class="list-group-item list-group-item-action bg-light">Usuario</a>
+                    <a href="#" class="list-group-item list-group-item-action bg-light">Hilos</a>
+                    <a href="#" class="list-group-item list-group-item-action bg-light">Mensajes</a>
                 </div>
         </div>
     ';
@@ -22,7 +23,7 @@
         <div id="page-content-wrapper">
     
           <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
-            <button class="btn btn-info" id="menu-toggle">Menu</button>
+            <button class="btn btn-info" id="menu-toggle">Virtual Chat</button>
     
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
