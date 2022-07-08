@@ -45,7 +45,7 @@
                             Tipo de Accesso: <br>
                         </p>
 
-                        <button class='btn btn-primary' type="button" style = 'margin: 75px'>User Configuration</button>
+                        <button class='btn btn-secondary' type="button" style = 'margin: 75px'>User Configuration</button>
                     </div>
                 
                 </div>

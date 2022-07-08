@@ -16,6 +16,13 @@
     <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/simple-sidebar.css" rel="stylesheet">
 
+    <style>
+    .oscurecer-img {
+        filter: brightness(25%);
+        height: 500px
+    }
+    </style>
+
 </head>
 
 <body>
@@ -33,14 +40,28 @@
                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img class="d-block w-100" src="..\componentes\img\Hilos - Peliculas.jpg" alt="First slide">
+                            <img class="d-block w-100 oscurecer-img" src="..\componentes\img\Hilos - Peliculas.jpg"
+                                alt="First slide">
+                            <div class="carousel-caption">
+                                <h3>Peliculas</h3>
+                                <a href="" class="btn btn-secondary" style='margin: 10px'>Entrar</a>
+                            </div>
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="..\componentes\img\Hilos - Musica.jpg" alt="Second slide">
+                            <img class="d-block w-100 oscurecer-img" src="..\componentes\img\Hilos - Musica.jpg"
+                                alt="Second slide">
+                            <div class="carousel-caption">
+                                <h3>Musica</h3>
+                                <a href="" class="btn btn-secondary" style='margin: 10px'>Entrar</a>
+                            </div>
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="..\componentes\img\Hilos - Videojuegos.jpg"
+                            <img class="d-block w-100 oscurecer-img" src="..\componentes\img\Hilos - Videojuegos.jpg"
                                 alt="Third slide">
+                            <div class="carousel-caption">
+                                <h3>Videojuegos</h3>
+                                <a href="" class="btn btn-secondary" style='margin: 10px'>Entrar</a>
+                            </div>
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -55,7 +76,80 @@
 
             </div>
 
-            <div id="Otros">
+
+
+            <h2 class="text-secondary" style="padding: 15px"> Otras categorias de Interes </h2>
+            <div id="Frecuentes" style="width: 1000px; padding: 50px; margin-left: auto; margin-right: auto">
+
+                <div id="caruselCategoriaOtras" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item active">
+                            <img class="d-block w-100 oscurecer-img" src="..\componentes\img\Hilos - Mascotas.jpg"
+                                alt="First slide">
+                            <div class="carousel-caption">
+                                <h3>Mascotas</h3>
+                                <a href="" class="btn btn-secondary" style='margin: 10px'>Entrar</a>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img class="d-block w-100 oscurecer-img" src="..\componentes\img\Hilos - Comida.jpg"
+                                alt="Second slide">
+                            <div class="carousel-caption">
+                                <h3>Comida</h3>
+                                <a href="" class="btn btn-secondary" style='margin: 10px'>Entrar</a>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img class="d-block w-100 oscurecer-img" src="..\componentes\img\Hilos - Jardineria.jpg"
+                                alt="Third slide">
+                            <div class="carousel-caption">
+                                <h3>Jardineria</h3>
+                                <a href="" class="btn btn-secondary" style='margin: 10px'>Entrar</a>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img class="d-block w-100 oscurecer-img" src="..\componentes\img\Hilos - Viajes.jpg"
+                                alt="Third slide">
+                            <div class="carousel-caption">
+                                <h3>Viajes</h3>
+                                <a href="" class="btn btn-secondary" style='margin: 10px'>Entrar</a>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img class="d-block w-100 oscurecer-img" src="..\componentes\img\Hilos - Economia.jpg"
+                                alt="Third slide">
+                            <div class="carousel-caption">
+                                <h3>Economia</h3>
+                                <a href="" class="btn btn-secondary" style='margin: 10px'>Entrar</a>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img class="d-block w-100 oscurecer-img" src="..\componentes\img\Hilos - Ciencia.jpg"
+                                alt="Third slide">
+                            <div class="carousel-caption">
+                                <h3>Ciencia</h3>
+                                <a href="" class="btn btn-secondary" style='margin: 10px'>Entrar</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+
+                    <a class="carousel-control-prev" href="#caruselCategoriaOtras" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#caruselCategoriaOtras" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
 
             </div>
 

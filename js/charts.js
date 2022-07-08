@@ -15,8 +15,8 @@ const data = {
     labels: labels,
     datasets: [{
         label: 'Cantidad de post',
-        backgroundColor: 'rgb(255, 99, 132)',
-        borderColor: 'rgb(255, 99, 132)',
+        backgroundColor: '#009688',
+        borderColor: '#32A89C',
         data: [0, 10, 5, 2, 20, 30, 45],
         pointStyle: 'circle',
         pointRadius: 10,
