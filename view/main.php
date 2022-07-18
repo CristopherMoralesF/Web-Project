@@ -33,7 +33,7 @@
 
                     <div class="container-fluid" style="background-color: #ececec; border-radius: 25px; height: 800px;  text-align: center;">
 
-                        <h2 style='padding: 15px'>User Details</h2>
+                        <h2 style='padding: 15px'>Perfil</h2>
                         
                         <picture>
                             <source srcset="../componentes/img/sample_profile.jpg" type="image/svg+xml">
@@ -41,11 +41,11 @@
                         </picture>
                     
                         <p style = 'padding: 25px'>
-                            Nombre de Usario: <br><br>
+                            Nombre de Usuario: <br><br>
                             Tipo de Accesso: <br>
                         </p>
 
-                        <button class='btn btn-secondary' type="button" style = 'margin: 75px'>User Configuration</button>
+                        <a href="../view/usuarios_configuracion.php" class="btn btn-secondary">Configuración</a>
                     </div>
                 
                 </div>
