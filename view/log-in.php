@@ -16,6 +16,7 @@
     <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/simple-sidebar.css" rel="stylesheet">
     <link href="../css/log-in.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
 </head>
@@ -28,23 +29,23 @@
                 <div class="card-header">
                     <h3>Sign In</h3>
                     <div class="d-flex justify-content-end social_icon">
-                        <span><i class="fab fa-facebook-square"></i></span>
-                        <span><i class="fab fa-google-plus-square"></i></span>
-                        <span><i class="fab fa-twitter-square"></i></span>
+                        <span><i class="fa fa-ravelry"></i></span>
+                        <span><i class="fa fa-superpowers"></i></span>
+                        <span><i class="fa fa-space-shuttle"></i></span>
                     </div>
                 </div>
                 <div class="card-body">
                     <form>
                         <div class="input-group form-group">
                             <div class="input-group-prepend">
-                                <span class="input-group-text"><i class="fas fa-user"></i></span>
+                                <span class="input-group-text"><i class="fa fa-user fa-2x"></i></span>
                             </div>
                             <input type="text" class="form-control" placeholder="username">
 
                         </div>
                         <div class="input-group form-group">
                             <div class="input-group-prepend">
-                                <span class="input-group-text"><i class="fas fa-key"></i></span>
+                                <span class="input-group-text"><i class="fa fa-key fa-2x"></i></span>
                             </div>
                             <input type="password" class="form-control" placeholder="password">
                         </div>
@@ -52,7 +53,7 @@
                             <input type="checkbox">Remember Me
                         </div>
                         <div class="form-group">
-                            <input type="submit" value="Login" class="btn float-right login_btn" href = "view\main.php">
+                            <input type="submit" value="Login" class="btn float-right login_btn" onclick = "validateUser();">
                         </div>
                     </form>
                 </div>

@@ -14,7 +14,9 @@
 
     <title>Start Bootstrap Template</title>
     <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="../css/simple-sidebar.css" rel="stylesheet">
+
 
 </head>
 
@@ -29,25 +31,27 @@
             <br>
             <div class="row">
 
-                <div class="col-3" style = 'margin-top: auto; margin-bottom: auto; padding-top: 8px'>
+                <div class="col-3" style='margin-top: auto; margin-bottom: auto; padding-top: 8px'>
 
-                    <div class="container-fluid" style="background-color: #ececec; border-radius: 25px; height: 800px;  text-align: center;">
+                    <div class="container-fluid"
+                        style="background-color: #ececec; border-radius: 25px; height: 800px;  text-align: center;">
 
                         <h2 style='padding: 15px'>Perfil</h2>
-                        
+
                         <picture>
                             <source srcset="../componentes/img/sample_profile.jpg" type="image/svg+xml">
-                            <img src="../componentes/img/sample_profile.jpg" class="img-circle" alt="profile" style = "height: 150px; width: 150px; border-radius: 50%">
+                            <img src="../componentes/img/sample_profile.jpg" class="img-circle" alt="profile"
+                                style="height: 150px; width: 150px; border-radius: 50%">
                         </picture>
-                    
-                        <p style = 'padding: 25px'>
+
+                        <p style='padding: 25px'>
                             Nombre de Usuario: <br><br>
                             Tipo de Accesso: <br>
                         </p>
 
                         <a href="../view/usuarios_configuracion.php" class="btn btn-secondary">Configuración</a>
                     </div>
-                
+
                 </div>
 
                 <div class="col-9">
@@ -58,7 +62,15 @@
                             <div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
                                 <div class="card-header">Inicio</div>
                                 <div class="card-body">
-                                    <p class="card-text">Nombre usuario es parte de la comunidad desde 01/01/2022</p>
+                                    <table>
+                                        <tr>
+                                            <td><i class="fa fa-clock-o fa-2x" style="display: inline;"></i></td>
+                                            <td style="padding-left: 10px">
+                                            <p class="card-text">En la comunidad desde 01/01/2022</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -67,7 +79,14 @@
                             <div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
                                 <div class="card-header">Role</div>
                                 <div class="card-body">
-                                    <p class="card-text">Se ha asignado un role de moderador</p>
+                                    <table>
+                                        <tr>
+                                            <td><i class="fa fa-user fa-2x" style="display: inline;"></i></td>
+                                            <td style="padding-left: 10px">
+                                                <p class="card-text">Se ha asignado un role de moderador</p>
+                                            </td>
+                                        </tr>
+                                    </table>
                                 </div>
                             </div>
                         </div>
@@ -76,18 +95,27 @@
                             <div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
                                 <div class="card-header">Cantidad Mensajes</div>
                                 <div class="card-body">
-                                    <p class="card-text">El usuario ha posteado un total de cantidadMensajes</p>
+                                    <table>
+                                        <tr>
+                                            <td><i class="fa fa-commenting fa-2x" style="display: inline;"></i></td>
+                                            <td style="padding-left: 10px">
+                                                <p class="card-text">El usuario ha posteado un total de cantidadMensajes
+                                                </p>
+                                            </td>
+                                        </tr>
+                                    </table>
                                 </div>
                             </div>
                         </div>
 
                     </div>
                     <br>
-                    
-                    <div class="row" style="width: 100%; height: 600px"></>
+
+                    <div class="row" style="width: 100%; height: 600px">
+                        </>
                         <canvas id="myChart" canvas>
                     </div>
-                    
+
                 </div>
 
             </div>

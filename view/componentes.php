@@ -8,7 +8,7 @@
                 <div class="list-group list-group-flush">
                     <a href="main.php" class="list-group-item list-group-item-action bg-secondary text-light">Usuario</a>
                     <a href="hilos.php" class="list-group-item list-group-item-action bg-secondary text-light">Hilos</a>
-                    <a href="#" class="list-group-item list-group-item-action bg-secondary text-light">Mis Mensajes</a>
+                    <a href="misMensajes.php" class="list-group-item list-group-item-action bg-secondary text-light">Mis Mensajes</a>
                     <a href="#" class="list-group-item list-group-item-action bg-secondary text-light">About</a>
                 </div>
         </div>

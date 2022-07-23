@@ -57,7 +57,7 @@
                             Tipo de Accesso: <br>
                         </p>
 
-                        <a href="../view/usuarios_configuracion.php" class="btn btn-secondary">Configuración</a>
+                        <a href="../view/main.php" class="btn btn-secondary">Perfil</a>
 
                     </div>
 
