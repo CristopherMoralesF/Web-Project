@@ -1,5 +1,6 @@
 <?php 
-  include 'componentes.php';
+  include_once 'componentes.php';
+  include_once '../controller/MensajesController.php';
 ?>
 
 <!DOCTYPE html>
@@ -26,7 +27,13 @@
 
         <?php MostrarMenu();?>
         <?php MostrarNav();?>
-
+        <?php
+        $NombreUsuario = $_SESSION["NombreUsuario"];
+        $RolUsuario = $_SESSION["RolUsuario"];
+        $FechaC = $_SESSION["FechaCreacion"];
+        $statusUsuario = $_SESSION["EstadoUsuario"];
+        $ConteoMensajes = TraerCantMensajesController($_SESSION["IDuser"]);
+        ?>
         <div class="container-fluid">
             <br>
             <div class="row">
@@ -45,8 +52,8 @@
                         </picture>
 
                         <p style='padding: 25px'>
-                            Nombre de Usuario: <br><br>
-                            Tipo de Accesso: <br>
+                            <b>Nombre de Usuario:</b><br><?php {echo $NombreUsuario;} ?><br><br>
+                            <b>Tipo de Accesso:</b><br><?php  {echo $RolUsuario;}?><br>
                         </p>
 
                         <a href="../view/usuarios_configuracion.php" class="btn btn-secondary">Configuración</a>
@@ -66,7 +73,7 @@
                                         <tr>
                                             <td><i class="fa fa-clock-o fa-2x" style="display: inline;"></i></td>
                                             <td style="padding-left: 10px">
-                                            <p class="card-text">En la comunidad desde 01/01/2022</p>
+                                            <p class="card-text">Usuario activo desde:<br><?php {echo $FechaC;}?></p>
                                             </td>
                                         </tr>
                                     </table>
@@ -83,7 +90,7 @@
                                         <tr>
                                             <td><i class="fa fa-user fa-2x" style="display: inline;"></i></td>
                                             <td style="padding-left: 10px">
-                                                <p class="card-text">Se ha asignado un role de moderador</p>
+                                                <p class="card-text">El usuario esta <br> <?php  {echo $statusUsuario ;}?></p>
                                             </td>
                                         </tr>
                                     </table>
@@ -93,13 +100,13 @@
 
                         <div class="col-4">
                             <div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
-                                <div class="card-header">Cantidad Mensajes</div>
+                                <div class="card-header">Cantidad Mensajes enviados:</div>
                                 <div class="card-body">
                                     <table>
                                         <tr>
                                             <td><i class="fa fa-commenting fa-2x" style="display: inline;"></i></td>
                                             <td style="padding-left: 10px">
-                                                <p class="card-text">El usuario ha posteado un total de cantidadMensajes
+                                                <p class="card-text">El usuario ha posteado un total de <?php {echo $ConteoMensajes;}?> mensajes
                                                 </p>
                                             </td>
                                         </tr>

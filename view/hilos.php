@@ -44,7 +44,7 @@
                                 alt="First slide">
                             <div class="carousel-caption">
                                 <h3>Peliculas</h3>
-                                <a href="" class="btn btn-secondary" style='margin: 10px'>Entrar</a>
+                                <a href="../view/hilos_feed.php?FeedID=1" class="btn btn-secondary" style='margin: 10px'>Entrar</a>
                             </div>
                         </div>
                         <div class="carousel-item">
@@ -52,7 +52,7 @@
                                 alt="Second slide">
                             <div class="carousel-caption">
                                 <h3>Musica</h3>
-                                <a href="" class="btn btn-secondary" style='margin: 10px'>Entrar</a>
+                                <a href="../view/hilos_feed.php?FeedID=2" class="btn btn-secondary" style='margin: 10px'>Entrar</a>
                             </div>
                         </div>
                         <div class="carousel-item">
@@ -60,7 +60,7 @@
                                 alt="Third slide">
                             <div class="carousel-caption">
                                 <h3>Videojuegos</h3>
-                                <a href="" class="btn btn-secondary" style='margin: 10px'>Entrar</a>
+                                <a href="../view/hilos_feed.php?FeedID=3" class="btn btn-secondary" style='margin: 10px'>Entrar</a>
                             </div>
                         </div>
                     </div>
@@ -85,11 +85,11 @@
                     <div class="carousel-inner">
 
                         <div class="carousel-item active">
-                            <img class="d-block w-100 oscurecer-img" src="..\componentes\img\Hilos - Mascotas.jpg"
+                            <img class="d-block w-100 oscurecer-img" id = 1 src="..\componentes\img\Hilos - Mascotas.jpg"
                                 alt="First slide">
                             <div class="carousel-caption">
                                 <h3>Mascotas</h3>
-                                <a href="" class="btn btn-secondary" style='margin: 10px'>Entrar</a>
+                                <a href="../view/hilos_feed.php?FeedID=9" class="btn btn-secondary" style='margin: 10px'>Entrar</a>
                             </div>
                         </div>
 
@@ -98,7 +98,7 @@
                                 alt="Second slide">
                             <div class="carousel-caption">
                                 <h3>Comida</h3>
-                                <a href="" class="btn btn-secondary" style='margin: 10px'>Entrar</a>
+                                <a href="../view/hilos_feed.php?FeedID=4" class="btn btn-secondary" style='margin: 10px'>Entrar</a>
                             </div>
                         </div>
 
@@ -107,7 +107,7 @@
                                 alt="Third slide">
                             <div class="carousel-caption">
                                 <h3>Jardineria</h3>
-                                <a href="" class="btn btn-secondary" style='margin: 10px'>Entrar</a>
+                                <a href="../view/hilos_feed.php?FeedID=5" class="btn btn-secondary" style='margin: 10px'>Entrar</a>
                             </div>
                         </div>
 
@@ -116,7 +116,7 @@
                                 alt="Third slide">
                             <div class="carousel-caption">
                                 <h3>Viajes</h3>
-                                <a href="" class="btn btn-secondary" style='margin: 10px'>Entrar</a>
+                                <a href="../view/hilos_feed.php?FeedID=6" class="btn btn-secondary" style='margin: 10px'>Entrar</a>
                             </div>
                         </div>
 
@@ -125,7 +125,7 @@
                                 alt="Third slide">
                             <div class="carousel-caption">
                                 <h3>Economia</h3>
-                                <a href="" class="btn btn-secondary" style='margin: 10px'>Entrar</a>
+                                <a href="../view/hilos_feed.php?FeedID=7" class="btn btn-secondary" style='margin: 10px'>Entrar</a>
                             </div>
                         </div>
 
@@ -134,7 +134,7 @@
                                 alt="Third slide">
                             <div class="carousel-caption">
                                 <h3>Ciencia</h3>
-                                <a href="" class="btn btn-secondary" style='margin: 10px'>Entrar</a>
+                                <a href="../view/hilos_feed.php?FeedID=8" class="btn btn-secondary" style='margin: 10px'>Entrar</a>
                             </div>
                         </div>
                         
